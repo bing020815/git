@@ -130,6 +130,19 @@ $ git pull origin master
 $ git push origin master
 ```
 
+<p align="center"><img src="./images/gitstage.png"></p>
+So, where are we now exactly? Let's review it again.
+
+* Working Directory: 
+	+ untracked files and modified files; 
+	+ can use `git status` to check
+* Staging Area:
+	+ a place for organizing files to be committed to the repository
+	+ lots of commits for codes and files
+* .git Directory:
+	+ repository
+
+
 <br>
 
 ### Common Workflow 
