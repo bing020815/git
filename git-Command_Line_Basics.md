@@ -1,13 +1,14 @@
 # GIT - Command Line Basics
-Basic commands of how to use GIT within the command-line
+Basic commands of how to use GIT within the command-line.
 
 
 ## Table of contents:  
-* [First Time Setup](#first-time-setup) 
-* [Getting Started](#getting-started)  
-* [Pushing Changes](#pushing-changes)  
-* [Common Workflow ](#common-workflow)  
+* [First Time Setup - Configuration ](#first-time-setup)
+* [Getting Started - Initialize A Repository](#getting-started) 
+* [Pushing Changes - Basic Push](#pushing-changes)  
+* [Common Workflow - Working With Branches ](#common-workflow) 
 
+<br>
 
 ### First Time Setup
 Check Version:
@@ -26,8 +27,8 @@ $ git config --list
 
 Need Help?
 
-* git help <verb>
-* git <verb> --help
+* git help `<verb>`
+* git `<verb>` --help
 
 ```
 $ git help config
