@@ -210,5 +210,5 @@ $ git push origin --delete <branch name>
 <br>
 
 ### Reference:  
-* [Git BooK Reference](https://git-scm.com/book/en/v2)  
+* [Git Book Reference](https://git-scm.com/book/en/v2)  
 * [Git Tutorial](https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&index=1)
