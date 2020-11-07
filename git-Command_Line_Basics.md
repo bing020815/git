@@ -4,6 +4,8 @@ Basic commands of how to use GIT within the command-line.
 
 ## Table of contents:  
 * [First Time Setup - Configuration ](#first-time-setup)
+	+ [Initialized A Repository From Existing Code](#initialized-a-repository-from-existing-code)
+	+ [Cloning A Remote Repo](#cloning-a-remote-repo)
 * [Getting Started - Initialize A Repository](#getting-started) 
 * [Pushing Changes - Basic Push](#pushing-changes)  
 * [Common Workflow - Working With Branches ](#common-workflow) 
@@ -40,8 +42,10 @@ $ git add --help
 ```
 
 ### Getting Started
-Initialized A Repository From Existing Code:
+## Initialized A Repository From Existing Code:
 ```
+mkdir <your-reponame>
+cd <your-reponame>
 $ git init
 ```
 
@@ -58,10 +62,16 @@ $ touch .gitignore
 ```
 
 Working on the Gitignore File with a Text Editor:
+* (optional:)
 ```
-.DS_store
-.project
-# ignore all files with .pyc
+## use vim editor to edit the .gitignore file
+vim .gitignore
+```
+* type the following content:
+```
+.DS_store.  ## <-- file that you want to ignore
+.project    ## <-- file that you want to ignore
+## ignore all files with .pyc
 *.pyc 
 ```
 
@@ -88,8 +98,18 @@ $ git commit -m "Initial Commit"
 $ git status
 $ git log
 ```
+Now a local git repository has been setup. But if you want to make it on github, do the following:
 
-Cloning A Remote Repo:
+* Go to [github](https://github.com/). 
+* Log in account. 
+* Create the new repository, <your-reponame>, without a README file.
+* Push to the Github
+```
+git remote add origin https://github.com/bing020815/reponame.git
+git push origin master
+```
+
+## Cloning A Remote Repo:
 
 * git clone <url> <where to clone>
 
