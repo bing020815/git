@@ -102,7 +102,7 @@ Now a local git repository has been setup. But if you want to make it on github,
 
 * Go to [github](https://github.com/). 
 * Log in account. 
-* Create the new repository, <your-reponame>, without a README file.
+* Create the new repository, `<your-reponame>`, without a README file.
 * Push to the Github
 ```
 git remote add origin https://github.com/bing020815/reponame.git
