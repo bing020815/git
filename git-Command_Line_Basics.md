@@ -57,7 +57,7 @@ ADD Gitignore File:
 $ touch .gitignore
 ```
 
-Working on the Gitignore File:
+Working on the Gitignore File with a Text Editor:
 ```
 .DS_store
 .project
